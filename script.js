@@ -63,7 +63,7 @@ function checkans(idx){
         }
         console.log("same color");
     }else{
-        h2.innerHTML=`Game over! Your score is<b>${level}  your highest score is ${hs}</b><br>Press any key to start`; 
+        h2.innerHTML=`Game over! `; 
         if(level>hs){
             hs=level;
         }
